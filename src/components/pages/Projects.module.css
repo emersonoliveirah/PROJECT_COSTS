@@ -1,0 +1,17 @@
+.project_container {
+    padding: 2em;
+}
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 820px) {
+  .title_container {
+    font-size: 0.8em;
+    margin-bottom: 0.2em;
+  }
+
+}

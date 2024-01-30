@@ -1,0 +1,90 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "projects": [
+    {
+      "name": "Dev Jr.",
+      "budget": "30000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Diretor DEV",
+      "budget": "300000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 2000,
+      "services": [
+        {
+          "name": "Contratar Assistente ADM.",
+          "cost": "2000",
+          "description": "Auxiliar o diretor nas tarefas administrativas.",
+          "id": "d5047009-c8e5-47d5-aedf-e3b7b1bf7e51"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Contabilidade",
+      "budget": "20000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "name": "ADM",
+      "budget": "20000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
